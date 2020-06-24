@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "github-login-firebase",
+      "public": "dist/github-login-firebase",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

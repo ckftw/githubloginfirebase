@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "socialmedi-29002": {
+      "hosting": {
+        "github-login-firebase": [
+          "socialmedi-29002"
+        ]
+      }
+    }
+  }
+}
